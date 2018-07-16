@@ -1,0 +1,241 @@
+/* ------------------------------------------ BASIC RULES --*/
+*{
+	box-sizing: border-box;
+
+}
+/* ------------------------------------------ LAYOUT RULES --*/
+body {
+    background: url(../img/cover.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.header
+{
+	width:100%;
+	background-color:navy;
+	color:white;
+	margin-top:0;
+	padding-top:3%;
+	padding-bottom:3%;
+	font-size:15px;
+}
+h1
+{
+	margin:0;
+	text-align:center;
+	font-family: 'Amaranth', sans-serif;
+	text-shadow: 3px 3px 6px black;
+}
+.para1
+{
+font-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+font-size:25px;
+text-shadow: 3px 3px 6px black;
+}
+.container
+{
+	margin:5% auto 0 auto;
+	width:90%;
+	background-color:lightpink;
+	border-radius: 20px;
+	margin-bottom:40px;
+	box-shadow: 0px 0px 11px 4px lightpink;
+-moz-box-shadow: 0px 0px 11px 4px lightpink;
+-webkit-box-shadow: 0px 0px 11px 4px lightpink;
+}
+h2,.para1
+{
+	text-align:center;
+	background-color:lightpink;
+}
+h2
+{
+	margin-top:0;
+	padding-top:20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size:25px;
+	
+}
+.border-up
+{
+	border-top:4px solid navy;
+	margin-bottom:3px;
+}
+.border-down
+{
+	border-top:2px solid navy;
+	margin-bottom:2%;
+}
+.contact
+{
+	margin-top:3%;
+	margin-bottom:10px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:700;
+	letter-spacing:2px;
+	font-size:15px;
+	
+	
+}
+.newsletter
+{
+	font-family: 'PT Sans', sans-serif;
+	font-weight:700;
+	letter-spacing:2px;
+	font-size:15px;
+
+}
+fieldset
+{
+	border:0;
+}
+label
+{
+	font-family: 'Maven Pro', sans-serif;
+}
+.border_3
+{
+	border-top:2px solid navy;
+	margin-bottom:25px;
+}
+
+input[type="text"],input[type="email"],input[type="tel"],select,#zip
+{
+	width:100%;
+	margin-bottom:2%;
+	margin-top:1%;
+	height:40px;
+	border-radius:5px;
+	 border: 2px solid transparent;
+	 font-family: 'Maven Pro', sans-serif;
+	 
+}
+
+textarea
+{
+	width:100%;
+	margin-bottom:1%;
+	border-radius:5px;
+	border: 2px solid transparent;
+	font-family: 'Maven Pro', sans-serif;
+}	 
+input[placeholder]
+{
+	text-align:right;
+	padding-right:10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing:2px;
+}
+.dis
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing:2px;
+	padding-left:10px;
+	
+}
+
+#zip
+{
+	width:50%;
+	height:40px;
+	border-radius:5px;
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus,input[type=number]:focus,select:focus,textarea:focus,#zip:focus
+{
+	border :2px solid navy;
+	outline:none;
+}
+#state {
+   -webkit-appearance: menulist-button;
+   height: 30px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button 
+{ 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+button
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	width:99%;
+	border-radius:5px;
+	border: 2px solid transparent;
+	background-color:turquoise;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: oblique;
+	font-weight:900;
+	font-size:25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.round{
+	width:20px;
+	border-radius:50%;
+	color:white;
+	background-color:turquoise;
+	margin-right:10px;
+	text-align:center;
+}
+button:focus
+{
+	outline:none;
+	background-color:royalblue;
+}
+p
+{
+	font-family: 'Maven Pro', sans-serif;
+}
+.footer
+{
+	text-align:center;
+	margin-bottom:2%;
+	padding:20px 0 20px 0;
+	margin:0;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+/* ----------------------------- MEDIA QUERIES 760 PIXELS ---*/
+@media (min-width: 760px) 
+{
+ 
+ .header
+ {
+	 padding-top:2%;
+	padding-bottom:2%;
+	font-size:30px;
+ }
+h1
+{
+
+text-shadow: 3px 3px 6px black;
+margin:0;
+text-align:center;
+font-family: 'Amaranth', sans-serif;
+}
+
+.row
+{
+	display:flex; 
+	flex-direction: row;
+	vertical-align:center;
+	align-items:center;
+	
+}
+label
+{
+
+	width:auto;
+
+}
+.tf{
+	margin-left:auto;
+	width:80%;
+}
+
+}

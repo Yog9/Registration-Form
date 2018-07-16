@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>THE CODE REVIEW</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Amaranth:700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Kaushan+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+<body>
+<div class="header">
+<h1>THE CODE REVIEW</h1>
+</div>
+<div class="container">
+
+<h2>Sign up for our Newsletter</h2>
+<p class="para1">Get the latest news on how your code is doing right in your inbox</p>
+
+<div class="border-up"></div>
+<div class="border-down"></div>
+<form action="index.html" method ="post">
+<fieldset>
+<legend class="contact"><span class= "round">1 </span>Contact Information</legend>
+<div class="row">
+<label for="name" >Full Name</label>
+<div class="tf">
+<input type ="text" id ="name" name="user_name" placeholder="Required" required><br>
+</div>
+</div>
+<div class="row">
+<label for="email" >Email Address</label>
+<div class="tf">
+<input type ="email" id ="email" name="user_mail"  placeholder="Required" required><br>
+</div>
+</div>
+<div class="row">
+<label for="number" >Phone Number</label>
+<div class="tf">
+<input type ="tel" id ="number" name="user_number"><br>
+</div>
+</div>
+<div class="row">
+<label for="address" >Street Address</label>
+<div class="tf"> 
+<input type ="text" id ="address" name="user_address"><br>
+</div>
+</div>
+<div class="row">
+<label for="city" >City</label>
+<div class="tf">
+<input type ="text" id ="city" name="user_city"></br>
+</div>
+</div>
+<div class="row">
+<label for="state" >State</label>
+<div class="tf">
+<select id ="state"> <br>
+  <option value="" disabled selected class="dis">Choose State</option>
+  <option value="Maharashtra">Maharashtra</option><br>
+  <option value="Gujarat">Gujarat</option>
+  <option value="Madhaya Pradesh">Madhaya Pradesh</option>
+  <option value="Punjab">Punjab</option>
+  <option value="Karnataka">Karnataka</option><br>
+  <option value="Andhara Pradesh">Andhara Pradesh </option>
+  <option value="Uttarakhand">Uttarakhand</option>
+  <option value="Meghalaya">Meghalaya</option>
+   <option value="Sikkim">Sikkim</option>
+  <option value="Tamil Nadu">Tamil Nadu</option>
+  <option value="Kerela">Kerela</option>
+</select>
+</div>
+</div>
+<div class="row">
+<label for="zip" >Zip Code</label><br>
+<div class="tf">
+<input type ="number" id ="zip" name="zip_code"></br>
+</div>
+</div>
+</fieldset>
+<div class="border_3"></div>
+<fieldset>
+<legend class="newsletter"><span class= "round">2 </span>Newsletter</legend>
+<p> Select the newsletter you would like to receive.</p>
+<input type="checkbox" name="html" value="HTML"><label> HTML</label><br>
+<input type="checkbox" name="css" value="CSS"><label> CSS News</label><br>
+<input type="checkbox" name="javascript" value="Javascript"><label> Javascript News</label><br>
+<p>Newsletter Format</p>
+<input type="radio" name="radio" value="Html_format"><label> HTML</label><br>
+<input type="radio" name="radio" value="Plain_format"><label> Plain text</label><br>
+<p>Other topics you would like to hear about</p>
+<textarea class="area" rows="3"></textarea>
+</fieldset>
+<button type="submit">Sign Up </button>
+<p class="footer">&copy; Copyright The Code Review</p>
+</form>
+</div>
+</body>
+</html>
