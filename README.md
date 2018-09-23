@@ -11,8 +11,10 @@ The purpose of this project was to understand more about HTML5 form elements , r
 * Responsive Design
 * HTML5 Validation
 
-### How to use?
-Fill your details in the form and click the signup button.
+### Getting Started
+ Click the demo link or clone/download the repository on your local machine and open the index.html file with a browser.
+ 
+ Fill your details in the form and click the signup button.
 
 ### Coming Soon 
 * Submitting the form using  a server side language to process the user's input.
