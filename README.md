@@ -21,6 +21,6 @@ Fill your details in the form and click the signup button.
 * Providing a real-time validation error message.i.e rather than providing an error message on submitting the form ,the form     will check for errors and display messages as the user begins typing inside a text field. 
 
 ### Built With
-HTML5
-CSS3
+* HTML5
+* CSS3
 
