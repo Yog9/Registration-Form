@@ -1,6 +1,8 @@
 # Registration Form
 [Demo Registration Form Here](https://yog9.github.io/Registration-Forms-Project3/)
 
+![](h2.gif)
+
 ### Summary
  Registration form  is a responsive form made using a variety of HTML form input types and attributes. 
  
