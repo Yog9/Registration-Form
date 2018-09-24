@@ -21,15 +21,15 @@ The purpose of this project was to understand more about HTML5 form elements , r
 * CSS3
 
 ### Features
-* Responsive Design
+**1. Responsive Design**
 
 Mobile View                |  Desktop View
 :-------------------------:|:-------------------------:
 ![](mobile-view.jpg)       | ![](desktop-view.jpg)
 
 
-* HTML5 Validation
-
+**2. HTML5 Validation**
+![](html5-validation.gif)
 
 ### Coming Soon 
 - [ ] Submitting the form using  a server side language to process the user's input.
