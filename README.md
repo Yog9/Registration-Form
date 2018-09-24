@@ -28,6 +28,7 @@ Mobile View                |  Desktop View
 ![](mobile-view.jpg)       | ![](desktop-view.jpg)
 
 
+
 **2. HTML5 Validation**
 ![](html5-validation.gif)
 
