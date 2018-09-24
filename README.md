@@ -29,7 +29,9 @@ Mobile View                |  Desktop View
 
 
 
+
 **2. HTML5 Validation**
+
 ![](html5-validation.gif)
 
 ### Coming Soon 
