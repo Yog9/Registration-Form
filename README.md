@@ -22,8 +22,12 @@ The purpose of this project was to understand more about HTML5 form elements , r
 
 ### Features
 * Responsive Design
-![](mobile view.jpg)
-![](desktop-view.jpg)
+
+Mobile View                |  Desktop View
+:-------------------------:|:-------------------------:
+![](mobile-view.jpg)       | ![](desktop-view.jpg)
+
+
 * HTML5 Validation
 
 
