@@ -1,5 +1,5 @@
 # Registration Form
-[Demo Registration Form Here](https://yog9.github.io/Registration-Forms-Project3/)
+[Demo Registration Form Here](https://yog9.github.io/Registration-Form/)
 
 ![](project-demo.gif)
 
